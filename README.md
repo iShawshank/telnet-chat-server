@@ -1,4 +1,13 @@
-Step 1:
+# Telnet Chat Server
+
+This was a fun little project given to me in a technical interview. I thought I would share my solution and give others the opportunity to attempt the problem as well.
+
+### GOAL - Try to complete all three steps below within one hour
+
+### BONUS - Don't look at the next step before completing the previous step. This forces you to have to refactor your original code.
+
+## Step 1:
+
 Write a socket-server chat-server that accepts clients that connect to it over TCP. An example client would be netcat or telnet.
 
 In order to start we will focus on creating an MVP version with the most basic functionality. As time permits we will have some follow-ups, so let's focus on getting the MVP running first:
@@ -17,7 +26,8 @@ Should be able to receive and forward messages among clients (message is not ech
 > same ol' same
 ```
 
-Step 2:
+## Step 2:
+
 Usernames and information
 
 Now that we have a working chat server, let's make it more user-friendly.
@@ -38,7 +48,8 @@ Upon disconnection the rest of the remaining clients should be notified.
 > < _Julia has left the chat_
 ```
 
-Step 3:
+## Step 3:
+
 History and Notifications
 
 Let's implement some final bells and whistles.
